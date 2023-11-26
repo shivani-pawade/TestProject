@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cookie-consent-model{
+    height: 200px;
+    width: 300px;
+    background-color: bisque;
+    position: flex;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    
+}
+
+.cookie-consent-model.active{
+display: flex;
+}
+.content{
+background-color: cadetblue;
+border-radius: 10px 10px 0 0;
+
+}
+
+.btns{
+    margin-left: 20px;
+    justify-content: flex-end;
+    margin-top: 1em;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: .8em 1 .5em;
+    width: 100px;
+    margin-right: 1em;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
